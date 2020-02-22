@@ -11,7 +11,7 @@ module.exports = function towelSort (matrix) {
 
   } else {
     
-    matrix.forEach(function(item, i) {
+    matrix.forEach((item, i) => {
         i % 2 === 1 ? arr.push(item.reverse()) : arr.push(item);
       }
     );
